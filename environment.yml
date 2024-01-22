@@ -1,0 +1,13 @@
+name: mixtral
+channels:
+  - defaults
+  - pip
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pytorch
+  - pip:
+      - notebook
+      - transformers>=4.36
+      - accelerate
